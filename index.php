@@ -14,7 +14,7 @@
 
     
 
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -81,24 +81,24 @@
     <h1 class="h3 mb-3 fw-normal">Cadastrar novo Retorno</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="Insira o Nome">
+      <input type="text" name="nomeCliente" class="form-control" id="floatingInput" placeholder="Insira o Nome">
       <label for="floatingInput">Nome do Cliente</label>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingPassword" placeholder="Insira o Código">
+      <input type="text" name="codigoTela" class="form-control" id="floatingPassword" placeholder="Insira o Código">
       <label for="floatingInput">Código da Tela</label>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingPassword" placeholder="Insira o Telefone">
+      <input type="text" name="telefone" class="form-control" id="floatingPassword" placeholder="Insira o Telefone">
       <label for="floatingInput">Telefone</label>
     </div>
 
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingPassword" placeholder="Informe o Horário">
+      <input type="text" name="horario" class="form-control" id="floatingPassword" placeholder="Informe o Horário">
       <label for="floatingInput">Horário</label>
     </div>
 
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Cadastrar</button>
     <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
   </form>
 </main>
